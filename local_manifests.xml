@@ -12,9 +12,9 @@
            fetch="https://github.com/krishnaspeace"
            clone-depth="1" />
            
-  <remote name="evol"
-           fetch="https://github.com/Evolution-X/"
-           clone-depth="1" />
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           revision="refs/heads/udc" />
            
  <remote  name="matrixx"
            fetch="https://github.com/ProjectMatrixx"
@@ -39,13 +39,8 @@
  <!--remove --> 
  <remove-project name="platform/packages/apps/Launcher3" />
  
-<<<<<<< HEAD
- <!--matrixx -->
- <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="matrixx" />
-=======
  <!--Evolution -->
  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="evol" />
->>>>>>> 5fa233c (change)
   
            
 </manifest>
